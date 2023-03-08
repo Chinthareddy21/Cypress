@@ -1,12 +1,12 @@
 {
   "name": "cypress",
   "version": "1.0.0",
-  "description": "",
+  "description": "Trail",
   "main": "index.js",
   "scripts": {
     "test": "npx cypress run -b electron --headed",
-    "pretest": "starting the test",
-    "posttest": "all tests completed"
+    "pretest": "echo \"starting the test\"",
+    "posttest": "echo \"all tests completed\" "
   },
   "keywords": [],
   "author": "Bhargava reddy Chinthareddy",
