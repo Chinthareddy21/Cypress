@@ -1,0 +1,17 @@
+{
+  "name": "cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run -b electron --headed",
+    "pretest": "starting the test",
+    "posttest": "all tests completed"
+  },
+  "keywords": [],
+  "author": "Bhargava reddy Chinthareddy",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^12.7.0"
+  }
+}
